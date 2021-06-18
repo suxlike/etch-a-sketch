@@ -1,0 +1,44 @@
+.body {
+  background-color: turquoise;
+}
+.main-desk {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.side-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(20, 17, 46);
+  height: 720px;
+  width: 240px;
+}
+.main-board {
+  background-color: darkolivegreen;
+  display: grid;
+  height: 720px;
+  width: 720px;
+}
+.cell {
+  background-color: whitesmoke;
+}
+.clear {
+  margin: 20px;
+}
+.range-input {
+  margin: 20px;
+}
+.slider {
+  margin: 20px;
+  display: flex;
+  border-radius: 5px;
+  background-color: white;
+}
+span {
+  color: cornflowerblue;
+  font-size: 16px;
+  line-height: 56px;
+  font-weight: 600;
+  text-align: center;
+}
