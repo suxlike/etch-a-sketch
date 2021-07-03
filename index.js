@@ -30,16 +30,16 @@ let mainBoard = document.querySelector(".main-board");
 function makeBoard() {
   mainBoard.style.gridTemplateRows = `repeat(${boardSize}, 1fr)`;
   mainBoard.style.gridTemplateColumns = `repeat(${boardSize}, 1fr)`;
-  for (i = 0; i < boardSize * boardSize; i++) {
+  for (let i = 0; i < boardSize * boardSize; i++) {
     mainBoard.appendChild(document.createElement("div"));
   }
   let cells = document.querySelectorAll(".main-board div");
   let cellsArray = [...cells];
-  for (i = 0; i < boardSize * boardSize; i++) {
+  for (let i = 0; i < boardSize * boardSize; i++) {
     cellsArray[i].classList.add("cell");
     cellsArray[i].classList.add(`cell[${i}]`);
   }
-  for (i = 0; i < boardSize * boardSize; i++) {
+  for (let i = 0; i < boardSize * boardSize; i++) {
     cellsArray[i].addEventListener("mouseover", painting);
   }
   let rangeInput = document.querySelector(".range-input");
