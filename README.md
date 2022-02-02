@@ -1,3 +1,3 @@
 # etch-a-sketch
 
-https://suxlike.github.io/etch-a-sketch/
+https://utoker.github.io/etch-a-sketch/
